@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.nrpt</groupId>
+        <artifactId>nrpt</artifactId>
+        <version>3.5.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <modules>
+        <module>nrpt-common-log</module>
+        <module>nrpt-common-core</module>
+        <module>nrpt-common-redis</module>
+        <module>nrpt-common-swagger</module>
+        <module>nrpt-common-security</module>
+        <module>nrpt-common-datascope</module>
+		<module>nrpt-common-datasource</module>
+    </modules>
+
+    <artifactId>nrpt-common</artifactId>
+    <packaging>pom</packaging>
+
+    <description>
+	    nrpt-common通用模块
+    </description>
+
+</project>

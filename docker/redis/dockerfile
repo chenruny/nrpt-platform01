@@ -1,0 +1,13 @@
+# 基础镜像
+FROM redis
+# author
+MAINTAINER nrpt
+
+# 挂载目录
+VOLUME /home/nrpt/redis
+# 创建目录
+RUN mkdir -p /home/nrpt/redis
+# 指定路径
+WORKDIR /home/nrpt/redis
+# 复制conf文件到路径
+COPY ./conf/redis.conf /home/nrpt/redis/redis.conf

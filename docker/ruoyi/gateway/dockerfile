@@ -1,0 +1,15 @@
+# 基础镜像
+FROM  openjdk:8-jre
+# author
+MAINTAINER nrpt
+
+# 挂载目录
+VOLUME /home/nrpt
+# 创建目录
+RUN mkdir -p /home/nrpt
+# 指定路径
+WORKDIR /home/nrpt
+# 复制jar文件到路径
+COPY ./jar/nrpt-gateway.jar /home/nrpt/nrpt-gateway.jar
+# 启动网关服务
+ENTRYPOINT ["java","-jar","nrpt-gateway.jar"]
