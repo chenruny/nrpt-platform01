@@ -6,10 +6,10 @@
 
 <script>
 export default {
-  name: 'nrptDoc',
+  name: 'RuoYiDoc',
   data() {
     return {
-      url: 'http://doc.nrpt.vip/nrpt-cloud'
+      url: 'http://doc.ruoyi.vip/ruoyi-cloud'
     }
   },
   methods: {

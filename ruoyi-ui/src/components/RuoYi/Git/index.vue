@@ -6,10 +6,10 @@
 
 <script>
 export default {
-  name: 'nrptGit',
+  name: 'RuoYiGit',
   data() {
     return {
-      url: 'https://gitee.com/y_project/nrpt-Cloud'
+      url: 'https://gitee.com/y_project/RuoYi-Cloud'
     }
   },
   methods: {
